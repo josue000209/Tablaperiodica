@@ -52,17 +52,6 @@
         android:layout_marginLeft="448dp" />
 
     <Button
-        android:id="@+id/button121"
-        android:layout_width="30dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="220dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="252dp" />
-
-    <Button
         android:id="@+id/button120"
         android:layout_width="30dp"
         android:layout_height="31dp"
@@ -94,28 +83,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="392dp" />
-
-    <Button
-        android:id="@+id/button117"
-        android:layout_width="30dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="220dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="252dp" />
-
-    <Button
-        android:id="@+id/button115"
-        android:layout_width="30dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="220dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="252dp" />
 
     <Button
         android:id="@+id/button114"
