@@ -1,5 +1,6 @@
 package com.example.tablaperiodica;
 
+import android.content.ClipData;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -78,17 +79,25 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.alcalinos_button) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.alcalinoterreos_button) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.metales_transicion_button) {
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.otros_metales_button) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.metaloides_button) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.no_metales_button) {
+
+        }else if (id == R.id.halogenos_button) {
+
+        }else if (id == R.id.gases_nobles_button) {
+
+        }else if (id == R.id.lantanidos_button) {
+
+        }else if (id == R.id.actinidos_button) {
 
         }
 

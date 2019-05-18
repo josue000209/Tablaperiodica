@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/alcalinos_button"
+            android:icon="@mipmap/ic_alcalinos_foreground"
+            android:title="@string/alcalinos"/>
+        <item
+            android:id="@+id/alcalinoterreos_button"
+            android:icon="@mipmap/ic_second_alcalinoterreos_foreground"
+            android:title="@string/alcalinoterreos" />
+        <item
+            android:id="@+id/metales_transicion_button"
+            android:icon="@mipmap/ic_metales_transicion_foreground"
+            android:title="@string/metales_transicion" />
+
+        <item
+            android:id="@+id/otros_metales_button"
+            android:icon="@mipmap/ic_otros_metales_foreground"
+            android:title="@string/otros_metales" />
+
+        <item
+            android:id="@+id/metaloides_button"
+            android:icon="@mipmap/ic_metaloides_foreground"
+            android:title="@string/metaloides" />
+
+        <item
+            android:id="@+id/no_metales_button"
+            android:icon="@mipmap/ic_no_metales_foreground"
+            android:title="@string/no_metales" />
+
+        <item
+            android:id="@+id/halogenos_button"
+            android:icon="@mipmap/ic_halogenos_foreground"
+            android:title="@string/halogenos" />
+
+        <item
+            android:id="@+id/gases_nobles_button"
+            android:icon="@mipmap/ic_gases_nobles_foreground"
+            android:title="@string/gases_nobles" />
+
+        <item
+            android:id="@+id/lantanidos_button"
+            android:icon="@mipmap/ic_lantanidos_foreground"
+            android:title="@string/lantanidos" />
+
+        <item
+            android:id="@+id/actinidos_button"
+            android:icon="@mipmap/ic_actinidos_foreground"
+            android:title="@string/actinidos" />
+
+        <item
+            android:id="@+id/propiedades_desconocidas_button"
+            android:icon="@mipmap/ic_propiedades_desconocidas_foreground"
+            android:title="@string/propiedades_desconocidas" />
+
+    </group>
+
+</menu>
