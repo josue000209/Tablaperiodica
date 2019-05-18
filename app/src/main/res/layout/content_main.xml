@@ -327,17 +327,6 @@
         android:layout_marginLeft="84dp" />
 
     <Button
-        android:id="@+id/button91"
-        android:layout_width="30dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="504dp"
-        android:layout_marginTop="52dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="504dp" />
-
-    <Button
         android:id="@+id/button90"
         android:layout_width="30dp"
         android:layout_height="31dp"
