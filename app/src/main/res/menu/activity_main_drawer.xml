@@ -8,6 +8,7 @@
             android:id="@+id/alcalinos_button"
             android:icon="@mipmap/ic_alcalinos_foreground"
             android:title="@string/alcalinos"/>
+
         <item
             android:id="@+id/alcalinoterreos_button"
             android:icon="@mipmap/ic_second_alcalinoterreos_foreground"

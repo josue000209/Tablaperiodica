@@ -6,4 +6,16 @@
     <color name="fondoToolbar">#616161</color>
     <color name="LetrasToolbar">#FFFFFF</color>
     <color name="TituloToolbar">#000000</color>
+    <color name="alcalinosColor">#F8BBD0</color>
+    <color name="alcalinoterreosColor">#FCE4EC</color>
+    <color name="metales_transicionColor">#90CAF9</color>
+    <color name="otros_metalesColor">#6DFD6F</color>
+    <color name="metaloidesColor">#FFC107</color>
+    <color name="no_metalesColor">#CDDC39</color>
+    <color name="halogenosColor">#663BC9</color>
+    <color name="gases_noblesColor">#FC20CA</color>
+    <color name="lantanidosColor">#B2DFDB</color>
+    <color name="actinidosColor">#8BC34A</color>
+    <color name="desconocidosColor">#D9D9D9</color>
+
 </resources>

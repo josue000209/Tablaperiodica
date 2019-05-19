@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        navigationView.setBackgroundResource(R.drawable.degradado);
+
     }
 
     @Override
@@ -98,6 +101,8 @@ public class MainActivity extends AppCompatActivity
         }else if (id == R.id.lantanidos_button) {
 
         }else if (id == R.id.actinidos_button) {
+
+        }else if (id == R.id.propiedades_desconocidas_button) {
 
         }
 

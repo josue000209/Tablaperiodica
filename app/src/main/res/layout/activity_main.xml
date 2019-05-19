@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
-    android:background="@drawable/degradado">
+    tools:openDrawer="start">
 
     <include
         layout="@layout/app_bar_main"
@@ -22,8 +21,9 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"
-        app:itemIconTint=""
+        app:itemIconTint="@android:color/transparent"
         android:backgroundTint="@color/fondoToolbar"
-        app:itemTextColor="@color/LetrasToolbar" tools:targetApi="lollipop"/>
+        app:itemTextColor="@color/desconocidosColor"
+        tools:targetApi="lollipop"/>
 
 </android.support.v4.widget.DrawerLayout>
