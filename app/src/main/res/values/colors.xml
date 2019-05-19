@@ -3,4 +3,24 @@
     <color name="colorPrimary">#0A8ACF</color>
     <color name="colorPrimaryDark">#067ABB</color>
     <color name="colorAccent">#EC226C</color>
+    <color name="colorAlcalinos">#FBADDE</color>
+    <color name="aaaa">#E04FA9</color>
+    <color name="colorTerreos">#FFD0ED</color>
+    <color name="sssss">#9B4676</color>
+    <color name="halogenos">#9303F7</color>
+    <color name="WWW">#9C27B0</color>
+    <color name="Tranciocion">#7478FF</color>
+    <color name="ddddd">#01597C</color>
+    <color name="lantadi">#85D6D9</color>
+    <color name="ffff">#2196F3</color>
+    <color name="actinidos">#64902E</color>
+    <color name="ggggg">#123802</color>
+    <color name="otrosMetal">#74FF7C</color>
+    <color name="qwqw">#06790C</color>
+    <color name="gasesNobles">#FF118F</color>
+    <color name="ERTR">#FF6EEB</color>
+    <color name="noMetales">#CBDA4C</color>
+    <color name="mmmmm">#615201</color>
+    <color name="mataloides">#FFD410</color>
+    <color name="xxxxx">#948303</color>
 </resources>
