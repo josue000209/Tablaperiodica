@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0A8ACF</color>
-    <color name="colorPrimaryDark">#067ABB</color>
-    <color name="colorAccent">#EC226C</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fondoToolbar">#616161</color>
+    <color name="LetrasToolbar">#FFFFFF</color>
+    <color name="TituloToolbar">#000000</color>
     <color name="colorAlcalinos">#FBADDE</color>
     <color name="aaaa">#E04FA9</color>
     <color name="colorTerreos">#FFD0ED</color>

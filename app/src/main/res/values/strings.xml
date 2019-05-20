@@ -2,7 +2,7 @@
     <string name="app_name">Tabla periodica</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_title">Tabla Periodica</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -13,4 +13,18 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="alcalinos">Metales Alcalinos</string>
+    <string name="alcalinoterreos">Alcalinoterreos</string>
+    <string name="metales_transicion">Metales de Transición</string>
+    <string name="otros_metales">Otros Metales</string>
+    <string name="metaloides">Metaloides</string>
+    <string name="no_metales">No Metales</string>
+    <string name="halogenos">Halógenos</string>
+    <string name="gases_nobles">Gases Nobles</string>
+    <string name="lantanidos">Lantánidos</string>
+    <string name="actinidos">Actínidos</string>
+    <string name="communicate">Communicate</string>
+    <string name="propiedades_desconocidas">Propiedades Desconocidas</string>
+
+
 </resources>
