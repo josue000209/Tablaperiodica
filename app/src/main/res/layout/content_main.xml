@@ -470,9 +470,9 @@
         android:layout_marginTop="220dp"
         android:background="@color/gasesNobles"
         android:text="ON**"
-        android:textColor="@color/xxxxx"
+        android:textColor="@color/ERTR"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
