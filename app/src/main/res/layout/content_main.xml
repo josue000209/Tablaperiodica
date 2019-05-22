@@ -1014,10 +1014,10 @@
 
                             <Button
                                 android:id="@+id/button142"
+                                android:text="16"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
-                                android:background="@android:color/transparent"
-                                android:text="16" />
+                                android:background="@android:color/transparent" />
 
                             <Button
                                 android:id="@+id/button143"
@@ -1082,10 +1082,10 @@
 
                             <Button
                                 android:id="@+id/button152"
-                                android:layout_width="60dp"
+                                android:layout_width="50dp"
+                                android:text="17"
                                 android:layout_height="60dp"
-                                android:background="@android:color/transparent"
-                                android:text="17" />
+                                android:background="@android:color/transparent" />
 
                             <Button
                                 android:id="@+id/button153"
@@ -1226,5 +1226,4 @@
         android:textSize="20sp"
         app:layout_anchor="@+id/nestedScrollView"
         app:layout_anchorGravity="top|center" />
-
 </android.support.design.widget.CoordinatorLayout>
