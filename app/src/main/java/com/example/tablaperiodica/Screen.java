@@ -20,7 +20,7 @@ public class Screen extends AppCompatActivity {
                 Intent intent =  new Intent(Screen.this, MainActivity.class);
                 startActivity(intent);
             }
-        }, 1500);
+        }, 200);
     }
     }
 
