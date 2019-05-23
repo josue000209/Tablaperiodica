@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0789D3"
+    android:background="#FBFBFC"
     tools:context=".Screen">
 
     <ImageView
@@ -21,6 +21,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img4" />
+        app:srcCompat="@drawable/logoapp" />
 
 </android.support.constraint.ConstraintLayout>
