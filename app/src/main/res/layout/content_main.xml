@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     >
 
-    <android.support.v4.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    <android.support.v4.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,42 +47,51 @@
                                 android:id="@+id/button"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="H" />
+
+
 
                             <Button
                                 android:id="@+id/button2"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="Li" />
 
                             <Button
                                 android:id="@+id/button3"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="Na" />
 
                             <Button
                                 android:id="@+id/button4"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="K" />
 
                             <Button
                                 android:id="@+id/button5"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="Rb" />
 
                             <Button
                                 android:id="@+id/button6"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="Cs" />
 
                             <Button
                                 android:id="@+id/button7"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/alcalino"
                                 android:text="Fr" />
 
                         </LinearLayout>
@@ -103,36 +112,42 @@
                                 android:id="@+id/button9"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Be" />
 
                             <Button
                                 android:id="@+id/button10"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Mg" />
 
                             <Button
                                 android:id="@+id/button11"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Ca" />
 
                             <Button
                                 android:id="@+id/button12"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Sr" />
 
                             <Button
                                 android:id="@+id/button13"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Ba" />
 
                             <Button
                                 android:id="@+id/hbutton14"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/terreos"
                                 android:text="Ra" />
 
                         </LinearLayout>
@@ -165,18 +180,21 @@
                                 android:id="@+id/button18"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Sc" />
 
                             <Button
                                 android:id="@+id/button19"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Y" />
 
                             <Button
                                 android:id="@+id/button20"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="57-71*"
                                 android:textSize="10sp" />
 
@@ -184,6 +202,7 @@
                                 android:id="@+id/button21"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="89-103*"
                                 android:textSize="10sp" />
 
@@ -218,24 +237,28 @@
                                 android:id="@+id/button25"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Ti" />
 
                             <Button
                                 android:id="@+id/button26"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Zr" />
 
                             <Button
                                 android:id="@+id/button27"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Hf" />
 
                             <Button
                                 android:id="@+id/button28"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Rf" />
 
                             <Button
@@ -248,12 +271,14 @@
                                 android:id="@+id/button30"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="La" />
 
                             <Button
                                 android:id="@+id/button31"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Ac" />
 
                         </LinearLayout>
@@ -286,24 +311,28 @@
                                 android:id="@+id/button35"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="V" />
 
                             <Button
                                 android:id="@+id/button36"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Nb" />
 
                             <Button
                                 android:id="@+id/button37"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Ta" />
 
                             <Button
                                 android:id="@+id/button38"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Db" />
 
                             <Button
@@ -316,12 +345,14 @@
                                 android:id="@+id/button40"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Ce" />
 
                             <Button
                                 android:id="@+id/button41"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Th" />
 
 
@@ -355,24 +386,28 @@
                                 android:id="@+id/button45"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Cr" />
 
                             <Button
                                 android:id="@+id/button46"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Mo" />
 
                             <Button
                                 android:id="@+id/button47"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="W" />
 
                             <Button
                                 android:id="@+id/button48"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Sg" />
 
                             <Button
@@ -385,12 +420,14 @@
                                 android:id="@+id/button50"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Pr" />
 
                             <Button
                                 android:id="@+id/button51"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Pa" />
 
                         </LinearLayout>
@@ -423,24 +460,28 @@
                                 android:id="@+id/button55"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Mn" />
 
                             <Button
                                 android:id="@+id/button56"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Tc" />
 
                             <Button
                                 android:id="@+id/button57"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Re" />
 
                             <Button
                                 android:id="@+id/button58"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Bh" />
 
                             <Button
@@ -453,12 +494,14 @@
                                 android:id="@+id/button60"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Nd" />
 
                             <Button
                                 android:id="@+id/button61"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="U" />
 
                         </LinearLayout>
@@ -491,24 +534,28 @@
                                 android:id="@+id/button65"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Fe" />
 
                             <Button
                                 android:id="@+id/button66"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Ru" />
 
                             <Button
                                 android:id="@+id/button67"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Os" />
 
                             <Button
                                 android:id="@+id/button68"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Hs" />
 
                             <Button
@@ -521,12 +568,14 @@
                                 android:id="@+id/button70"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Pm" />
 
                             <Button
                                 android:id="@+id/button71"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Np" />
 
                         </LinearLayout>
@@ -559,25 +608,29 @@
                                 android:id="@+id/button75"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Co" />
 
                             <Button
                                 android:id="@+id/button76"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Rh" />
 
                             <Button
                                 android:id="@+id/button77"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="lr" />
 
                             <Button
                                 android:id="@+id/button78"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
-                                android:text="Mt" />
+                                android:text="Mt"
+                                android:background="@drawable/transicion"/>
 
                             <Button
                                 android:id="@+id/button79"
@@ -589,12 +642,14 @@
                                 android:id="@+id/button80"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Sm" />
 
                             <Button
                                 android:id="@+id/button81"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Pu" />
 
                         </LinearLayout>
@@ -627,31 +682,22 @@
                                 android:id="@+id/button85"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Ni" />
 
                             <Button
                                 android:id="@+id/button86"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Pd" />
 
                             <Button
                                 android:id="@+id/button87"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Pt" />
-
-                            <Button
-                                android:id="@+id/button88"
-                                android:layout_width="50dp"
-                                android:layout_height="60dp"
-                                android:text="Ds" />
-
-                            <Button
-                                android:id="@+id/button89"
-                                android:layout_width="match_parent"
-                                android:layout_height="30dp"
-                                android:background="@android:color/transparent" />
 
                             <Button
                                 android:id="@+id/button90"
@@ -660,9 +706,23 @@
                                 android:text="Eu" />
 
                             <Button
+                                android:id="@+id/button88"
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:background="@drawable/transicion"
+                                android:text="Ds" />
+
+                            <Button
+                                android:id="@+id/button89"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:background="@drawable/lan" />
+
+                            <Button
                                 android:id="@+id/button91"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Am" />
 
                         </LinearLayout>
@@ -695,24 +755,28 @@
                                 android:id="@+id/button95"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Cu" />
 
                             <Button
                                 android:id="@+id/button96"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Ag" />
 
                             <Button
                                 android:id="@+id/button97"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Au" />
 
                             <Button
                                 android:id="@+id/button98"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Rg" />
 
                             <Button
@@ -725,12 +789,14 @@
                                 android:id="@+id/button100"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Gd" />
 
                             <Button
                                 android:id="@+id/button101"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Cm" />
 
                         </LinearLayout>
@@ -763,24 +829,28 @@
                                 android:id="@+id/button105"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Zn" />
 
                             <Button
                                 android:id="@+id/button106"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Cd" />
 
                             <Button
                                 android:id="@+id/button107"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Hg" />
 
                             <Button
                                 android:id="@+id/button108"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/transicion"
                                 android:text="Cn" />
 
                             <Button
@@ -793,12 +863,14 @@
                                 android:id="@+id/button110"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Tb" />
 
                             <Button
                                 android:id="@+id/button111"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Bk" />
 
                         </LinearLayout>
@@ -819,30 +891,35 @@
                                 android:id="@+id/button113"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="B" />
 
                             <Button
                                 android:id="@+id/button114"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Al" />
 
                             <Button
                                 android:id="@+id/button115"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Ga" />
 
                             <Button
                                 android:id="@+id/button116"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="ln" />
 
                             <Button
                                 android:id="@+id/button117"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Ti" />
 
                             <Button
@@ -861,12 +938,14 @@
                                 android:id="@+id/button120"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Dy" />
 
                             <Button
                                 android:id="@+id/button121"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Cf" />
 
                         </LinearLayout>
@@ -887,30 +966,35 @@
                                 android:id="@+id/button123"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="C" />
 
                             <Button
                                 android:id="@+id/button124"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="Si" />
 
                             <Button
                                 android:id="@+id/button125"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="Ge" />
 
                             <Button
                                 android:id="@+id/button126"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Sn" />
 
                             <Button
                                 android:id="@+id/button127"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Pb" />
 
                             <Button
@@ -929,12 +1013,14 @@
                                 android:id="@+id/button130"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Ho" />
 
                             <Button
                                 android:id="@+id/button131"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Es" />
 
                         </LinearLayout>
@@ -955,30 +1041,35 @@
                                 android:id="@+id/button133"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="N" />
 
                             <Button
                                 android:id="@+id/button134"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="P" />
 
                             <Button
                                 android:id="@+id/button135"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="As" />
 
                             <Button
                                 android:id="@+id/button136"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="Sb" />
 
                             <Button
                                 android:id="@+id/button137"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/otrosmet"
                                 android:text="Bi" />
 
                             <Button
@@ -997,12 +1088,14 @@
                                 android:id="@+id/button140"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Er" />
 
                             <Button
                                 android:id="@+id/button141"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Fm" />
 
                         </LinearLayout>
@@ -1014,39 +1107,44 @@
 
                             <Button
                                 android:id="@+id/button142"
-                                android:text="16"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
-                                android:background="@android:color/transparent" />
+                                android:background="@android:color/transparent"
+                                android:text="16" />
 
                             <Button
                                 android:id="@+id/button143"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/nimetal"
                                 android:text="O" />
 
                             <Button
                                 android:id="@+id/button144"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="S" />
 
                             <Button
                                 android:id="@+id/button145"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/nimetal"
                                 android:text="Se" />
 
                             <Button
                                 android:id="@+id/button146"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
-                                android:text="Te" />
+                                android:text="Te"
+                                android:background="@drawable/metaloides"/>
 
                             <Button
                                 android:id="@+id/button147"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/metaloides"
                                 android:text="Po" />
 
                             <Button
@@ -1065,12 +1163,14 @@
                                 android:id="@+id/button150"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Tm" />
 
                             <Button
                                 android:id="@+id/button151"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="Md" />
 
                         </LinearLayout>
@@ -1083,38 +1183,43 @@
                             <Button
                                 android:id="@+id/button152"
                                 android:layout_width="50dp"
-                                android:text="17"
                                 android:layout_height="60dp"
-                                android:background="@android:color/transparent" />
+                                android:background="@android:color/transparent"
+                                android:text="17" />
 
                             <Button
                                 android:id="@+id/button153"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/halogenos"
                                 android:text="F" />
 
                             <Button
                                 android:id="@+id/button154"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/halogenos"
                                 android:text="Cl" />
 
                             <Button
                                 android:id="@+id/button155"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/halogenos"
                                 android:text="Br" />
 
                             <Button
                                 android:id="@+id/button156"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/halogenos"
                                 android:text="l" />
 
                             <Button
                                 android:id="@+id/button157"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/halogenos"
                                 android:text="At" />
 
                             <Button
@@ -1133,12 +1238,14 @@
                                 android:id="@+id/button160"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@color/lant"
                                 android:text="Yb" />
 
                             <Button
                                 android:id="@+id/button161"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/acti"
                                 android:text="No" />
 
                         </LinearLayout>
@@ -1152,36 +1259,42 @@
                                 android:id="@+id/button162"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="He" />
 
                             <Button
                                 android:id="@+id/button163"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="Ne" />
 
                             <Button
                                 android:id="@+id/button164"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="Ar" />
 
                             <Button
                                 android:id="@+id/button165"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="Kr" />
 
                             <Button
                                 android:id="@+id/button166"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="Xe" />
 
                             <Button
                                 android:id="@+id/button167"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/gasnoble"
                                 android:text="Rn" />
 
                             <Button
@@ -1200,13 +1313,15 @@
                                 android:id="@+id/button170"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
+                                android:background="@drawable/lan"
                                 android:text="Lu" />
 
                             <Button
                                 android:id="@+id/button171"
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
-                                android:text="Lr" />
+                                android:text="Lr"
+                                android:background="@drawable/acti" />
 
                         </LinearLayout>
                     </LinearLayout>

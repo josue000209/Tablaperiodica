@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/otrosmet"></solid>
+    <stroke android:color="@color/OtrosMet" android:width="2dp"></stroke>
+</shape>
