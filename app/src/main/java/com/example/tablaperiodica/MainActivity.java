@@ -1,6 +1,7 @@
 package com.example.tablaperiodica;
 
 import android.content.ClipData;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -15,6 +16,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+
+import com.example.tablaperiodica.Agrupamientos.Alcalinoterreos;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -76,9 +79,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.alcalinos_button) {
-            // Handle the camera action
-        } else if (id == R.id.alcalinoterreos_button) {
 
+        } else if (id == R.id.alcalinoterreos_button) {
+            Intent i = new Intent(MainActivity.this, Alcalinoterreos.class);
+            startActivity(i);
         } else if (id == R.id.metales_transicion_button) {
 
         } else if (id == R.id.otros_metales_button) {

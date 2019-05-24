@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#067ABB</color>
+    <color name="colorPrimaryDark">#066DA7</color>
+    <color name="colorAccent">#000000</color>
     <color name="alcalino">#FF8A80</color>
     <color name="Terreos">#FFCC80</color>
     <color name="tansicin">#FFFF8D</color>
@@ -23,4 +23,7 @@
     <color name="Lant">#EC407A</color>
     <color name="AcT">#E91E63</color>
     <color name="Alcalino">#FF5252</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
 </resources>
