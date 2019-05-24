@@ -1,18 +1,22 @@
-package com.example.tablaperiodica;
+package com.example.tablaperiodica.Descripciones;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.example.tablaperiodica.Adaptadores.Propiedades;
 import com.example.tablaperiodica.JSON.HttpClient;
 import com.example.tablaperiodica.JSON.OnHttpRequestComplete;
 import com.example.tablaperiodica.JSON.Response;
+import com.example.tablaperiodica.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -21,25 +25,32 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class DescActivity extends AppCompatActivity {
+public class DescNoMetales extends AppCompatActivity {
 
     LinearLayout stackContent;
-    String ID;
+    String ID, ImgUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desc);
+        setContentView(R.layout.activity_desc_no_metales);
 
-        stackContent = (LinearLayout) findViewById(R.id.contendorDatos);
+        stackContent = (LinearLayout) findViewById(R.id.contendorDatos3);
         Intent intent = getIntent();
         Bundle b = intent.getExtras();
         if(b!=null){
             ID = (b.getString("ID"));
+            ImgUrl = (b.getString("Image"));
         }
 
-        TextView txt = (TextView) findViewById(R.id.txtTitulo);
+        ImageView img = (ImageView) findViewById(R.id.ImgEle3);
+        TextView txt = (TextView) findViewById(R.id.txtTitulo3);
         txt.setText(ID);
+
+        Glide.with(DescNoMetales.this)
+                .load(ImgUrl)
+                .apply(RequestOptions.circleCropTransform())
+                .into(img);
 
         HttpClient client = new HttpClient(new OnHttpRequestComplete() {
             @Override
@@ -64,11 +75,11 @@ public class DescActivity extends AppCompatActivity {
                             stackContent.addView(t);
                         }
                     }catch (Exception e){
-                        Toast.makeText(DescActivity.this, "Error: "+e,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DescNoMetales.this, "Error: "+e,Toast.LENGTH_SHORT).show();
                     }
                 }
             }
         });
-        client.excecute("https://gist.githubusercontent.com/josue000209/9ba0e9cca98d57acbdde0619dd9bf2af/raw/068611acef6cabff2c95279d9f317290c64ed11a/datos.json");
+        client.excecute("https://gist.githubusercontent.com/josue000209/929a2261dadd7c8a3580cc7bd65fcb3c/raw/dbe33e2c03426357c654b1a008426e445d33444e/nometales.json");
     }
 }

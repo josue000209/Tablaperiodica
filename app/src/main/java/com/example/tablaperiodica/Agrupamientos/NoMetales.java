@@ -23,6 +23,7 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.example.tablaperiodica.Adaptadores.Elemento;
 import com.example.tablaperiodica.Adaptadores.ElementoAdapter;
 import com.example.tablaperiodica.Descripciones.DescAlcalinoterreos;
+import com.example.tablaperiodica.Descripciones.DescNoMetales;
 import com.example.tablaperiodica.MyApplication;
 import com.example.tablaperiodica.MyDividerItemDecoration;
 import com.example.tablaperiodica.R;
@@ -34,28 +35,29 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener {
+public class NoMetales extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener{
 
-    private static final String TAG = Alcalinoterreos.class.getSimpleName();
+    private static final String TAG = NoMetales.class.getSimpleName();
     private RecyclerView recyclerView;
     private List<Elemento> contactList;
     private ElementoAdapter mAdapter;
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/3617e2cb58f614f23882da7ce9878d2c/raw/16e912fbe90547a42c8cffd54e84a9ef303ea2a6/alaclinoterreos";
+    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/e240dca3969f6c084dfb4edfce3e3dae/raw/747b95edfc1b4288919687a08e92928d82db97de/nometales";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alcalinoterreos);
+        setContentView(R.layout.activity_no_metales);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
 
         // toolbar fancy stuff
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Alcalinoterreos");
+        getSupportActionBar().setTitle("No Metales");
         toolbar.setTitleTextColor(Color.WHITE);
 
         recyclerView = findViewById(R.id.recycler_view);
@@ -161,10 +163,9 @@ public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapte
 
     @Override
     public void onContactSelected(Elemento contact) {
-        Intent i =  new Intent(this, DescAlcalinoterreos.class);
+        Intent i =  new Intent(this, DescNoMetales.class);
         i.putExtra("ID", contact.getNom());
         i.putExtra("Image", contact.getImage());
         startActivity(i);
     }
-
 }

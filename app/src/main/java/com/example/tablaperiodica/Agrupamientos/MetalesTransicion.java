@@ -22,7 +22,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.example.tablaperiodica.Adaptadores.Elemento;
 import com.example.tablaperiodica.Adaptadores.ElementoAdapter;
-import com.example.tablaperiodica.Descripciones.DescAlcalinoterreos;
+import com.example.tablaperiodica.Descripciones.DescMetalesTranscision;
+import com.example.tablaperiodica.Descripciones.DescNoMetales;
 import com.example.tablaperiodica.MyApplication;
 import com.example.tablaperiodica.MyDividerItemDecoration;
 import com.example.tablaperiodica.R;
@@ -34,28 +35,28 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener {
+public class MetalesTransicion extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener {
 
-    private static final String TAG = Alcalinoterreos.class.getSimpleName();
+    private static final String TAG = NoMetales.class.getSimpleName();
     private RecyclerView recyclerView;
     private List<Elemento> contactList;
     private ElementoAdapter mAdapter;
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/3617e2cb58f614f23882da7ce9878d2c/raw/16e912fbe90547a42c8cffd54e84a9ef303ea2a6/alaclinoterreos";
+    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/a1ffc85bf59b95b2b7b276d81bb70700/raw/0de255fb0cef3fe232c5de0a765c31771956984a/MetalesDeTransicion.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alcalinoterreos);
+        setContentView(R.layout.activity_metales_transcion);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar4);
         setSupportActionBar(toolbar);
 
         // toolbar fancy stuff
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Alcalinoterreos");
+        getSupportActionBar().setTitle("Metales de Transcisión");
         toolbar.setTitleTextColor(Color.WHITE);
 
         recyclerView = findViewById(R.id.recycler_view);
@@ -161,10 +162,9 @@ public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapte
 
     @Override
     public void onContactSelected(Elemento contact) {
-        Intent i =  new Intent(this, DescAlcalinoterreos.class);
+        Intent i =  new Intent(this, DescMetalesTranscision.class);
         i.putExtra("ID", contact.getNom());
         i.putExtra("Image", contact.getImage());
         startActivity(i);
     }
-
 }

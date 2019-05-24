@@ -16,11 +16,23 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.widget.Button;
 
+import com.example.tablaperiodica.Agrupamientos.Actinidos;
+import com.example.tablaperiodica.Agrupamientos.Alcalinos;
 import com.example.tablaperiodica.Agrupamientos.Alcalinoterreos;
+import com.example.tablaperiodica.Agrupamientos.GasesNobles;
+import com.example.tablaperiodica.Agrupamientos.Halogenos;
+import com.example.tablaperiodica.Agrupamientos.Lantanidos;
+import com.example.tablaperiodica.Agrupamientos.MetalesTransicion;
+import com.example.tablaperiodica.Agrupamientos.Metaloides;
+import com.example.tablaperiodica.Agrupamientos.NoMetales;
+import com.example.tablaperiodica.Agrupamientos.OtrosMetales;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +50,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
     }
 
     @Override
@@ -79,26 +92,35 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.alcalinos_button) {
-
+            Intent i = new Intent(MainActivity.this, Alcalinos.class);
+            startActivity(i);
         } else if (id == R.id.alcalinoterreos_button) {
             Intent i = new Intent(MainActivity.this, Alcalinoterreos.class);
             startActivity(i);
         } else if (id == R.id.metales_transicion_button) {
-
+            Intent i = new Intent(MainActivity.this, MetalesTransicion.class);
+            startActivity(i);
         } else if (id == R.id.otros_metales_button) {
-
+            Intent i = new Intent(MainActivity.this, OtrosMetales.class);
+            startActivity(i);
         } else if (id == R.id.metaloides_button) {
-
+            Intent i = new Intent(MainActivity.this, Metaloides.class);
+            startActivity(i);
         } else if (id == R.id.no_metales_button) {
-
+            Intent i = new Intent(MainActivity.this, NoMetales.class);
+            startActivity(i);
         }else if (id == R.id.halogenos_button) {
-
+            Intent i = new Intent(MainActivity.this, Halogenos.class);
+            startActivity(i);
         }else if (id == R.id.gases_nobles_button) {
-
+            Intent i = new Intent(MainActivity.this, GasesNobles.class);
+            startActivity(i);
         }else if (id == R.id.lantanidos_button) {
-
+            Intent i = new Intent(MainActivity.this, Lantanidos.class);
+            startActivity(i);
         }else if (id == R.id.actinidos_button) {
-
+            Intent i = new Intent(MainActivity.this, Actinidos.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

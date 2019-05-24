@@ -23,6 +23,7 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.example.tablaperiodica.Adaptadores.Elemento;
 import com.example.tablaperiodica.Adaptadores.ElementoAdapter;
 import com.example.tablaperiodica.Descripciones.DescAlcalinoterreos;
+import com.example.tablaperiodica.Descripciones.DescLantanidos;
 import com.example.tablaperiodica.MyApplication;
 import com.example.tablaperiodica.MyDividerItemDecoration;
 import com.example.tablaperiodica.R;
@@ -34,7 +35,7 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener {
+public class Lantanidos extends AppCompatActivity implements ElementoAdapter.ContactsAdapterListener{
 
     private static final String TAG = Alcalinoterreos.class.getSimpleName();
     private RecyclerView recyclerView;
@@ -43,19 +44,20 @@ public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapte
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/3617e2cb58f614f23882da7ce9878d2c/raw/16e912fbe90547a42c8cffd54e84a9ef303ea2a6/alaclinoterreos";
+    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/ffdd8db81b843f19288641250b53ab50/raw/e963e276dfb27b4c6c6970fffa8cc9f540f56841/lantanidos";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alcalinoterreos);
+        setContentView(R.layout.activity_lantanidos);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar10);
         setSupportActionBar(toolbar);
 
         // toolbar fancy stuff
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Alcalinoterreos");
+        getSupportActionBar().setTitle("Lantanidos");
         toolbar.setTitleTextColor(Color.WHITE);
 
         recyclerView = findViewById(R.id.recycler_view);
@@ -161,10 +163,9 @@ public class Alcalinoterreos extends AppCompatActivity implements ElementoAdapte
 
     @Override
     public void onContactSelected(Elemento contact) {
-        Intent i =  new Intent(this, DescAlcalinoterreos.class);
+        Intent i =  new Intent(this, DescLantanidos.class);
         i.putExtra("ID", contact.getNom());
         i.putExtra("Image", contact.getImage());
         startActivity(i);
     }
-
 }
