@@ -52,11 +52,6 @@
             android:icon="@mipmap/ic_actinidos_foreground"
             android:title="@string/actinidos" />
 
-        <item
-            android:id="@+id/propiedades_desconocidas_button"
-            android:icon="@mipmap/ic_propiedades_desconocidas_foreground"
-            android:title="@string/propiedades_desconocidas" />
-
     </group>
 
 </menu>
