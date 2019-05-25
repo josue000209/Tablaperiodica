@@ -27,13 +27,16 @@ import com.example.tablaperiodica.Agrupamientos.MetalesTransicion;
 import com.example.tablaperiodica.Agrupamientos.Metaloides;
 import com.example.tablaperiodica.Agrupamientos.NoMetales;
 import com.example.tablaperiodica.Agrupamientos.OtrosMetales;
+import com.example.tablaperiodica.Descripciones.DescActinidos;
 import com.example.tablaperiodica.Descripciones.DescAlcalinos;
 import com.example.tablaperiodica.Descripciones.DescAlcalinoterreos;
 import com.example.tablaperiodica.Descripciones.DescGasesNobles;
 import com.example.tablaperiodica.Descripciones.DescHalogenos;
+import com.example.tablaperiodica.Descripciones.DescLantanidos;
 import com.example.tablaperiodica.Descripciones.DescMetalesTranscision;
 import com.example.tablaperiodica.Descripciones.DescMetaloides;
 import com.example.tablaperiodica.Descripciones.DescNoMetales;
+import com.example.tablaperiodica.Descripciones.DescOtrosMetales;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
@@ -41,7 +44,9 @@ public class MainActivity extends AppCompatActivity
     Elemento ele = new Elemento();
     Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn9,btn10,btn11,btn12,btn13,btn14,btn18,btn19,btn153,btn154,btn155,btn156,btn157,btn158;
     Button btn162,btn163,btn164,btn165,btn166,btn167,btn168,btn113,btn124,btn125,btn135,btn136,btn146,btn147,btn123,btn133,btn134,btn143;
-    Button btn144,btn145;
+    Button btn144,btn145,btn114,btn115,btn116,btn117,btn127,btn137,btn128,btn148,btn30,btn40,btn50,btn60,btn70,btn80,btn90,btn100,btn110;
+    Button btn120,btn130,btn140,btn150,btn160,btn170,btn31,btn41,btn51,btn61,btn71,btn81,btn91,btn101,btn111,btn121,btn131,btn141,btn151;
+    Button btn161,btn171;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +107,44 @@ public class MainActivity extends AppCompatActivity
         btn143 = (Button)findViewById(R.id.button143);
         btn144 = (Button)findViewById(R.id.button144);
         btn145 = (Button)findViewById(R.id.button145);
+        btn114 = (Button)findViewById(R.id.button114);
+        btn115 = (Button)findViewById(R.id.button115);
+        btn116 = (Button)findViewById(R.id.button116);
+        btn117 = (Button)findViewById(R.id.button117);
+        btn127 = (Button)findViewById(R.id.button127);
+        btn137 = (Button)findViewById(R.id.button137);
+        btn148 = (Button)findViewById(R.id.button148);
+        btn128 = (Button)findViewById(R.id.button128);
+        btn30 = (Button)findViewById(R.id.button30);
+        btn40 = (Button)findViewById(R.id.button40);
+        btn50 = (Button)findViewById(R.id.button50);
+        btn60 = (Button)findViewById(R.id.button60);
+        btn70 = (Button)findViewById(R.id.button70);
+        btn80 = (Button)findViewById(R.id.button80);
+        btn90 = (Button)findViewById(R.id.button90);
+        btn100 = (Button)findViewById(R.id.button100);
+        btn110 = (Button)findViewById(R.id.button110);
+        btn120 = (Button)findViewById(R.id.button120);
+        btn130 = (Button)findViewById(R.id.button130);
+        btn140 = (Button)findViewById(R.id.button140);
+        btn150 = (Button)findViewById(R.id.button150);
+        btn160 = (Button)findViewById(R.id.button160);
+        btn170 = (Button)findViewById(R.id.button170);
+        btn31 = (Button)findViewById(R.id.button31);
+        btn41 = (Button)findViewById(R.id.button41);
+        btn51 = (Button)findViewById(R.id.button51);
+        btn61 = (Button)findViewById(R.id.button61);
+        btn71 = (Button)findViewById(R.id.button71);
+        btn81 = (Button)findViewById(R.id.button81);
+        btn91 = (Button)findViewById(R.id.button91);
+        btn101 = (Button)findViewById(R.id.button101);
+        btn111 = (Button)findViewById(R.id.button111);
+        btn121 = (Button)findViewById(R.id.button121);
+        btn131 = (Button)findViewById(R.id.button131);
+        btn141 = (Button)findViewById(R.id.button141);
+        btn151 = (Button)findViewById(R.id.button151);
+        btn161 = (Button)findViewById(R.id.button161);
+        btn171 = (Button)findViewById(R.id.button171);
         btn1.setOnClickListener(this);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
@@ -145,6 +188,44 @@ public class MainActivity extends AppCompatActivity
         btn143.setOnClickListener(this);
         btn144.setOnClickListener(this);
         btn145.setOnClickListener(this);
+        btn114.setOnClickListener(this);
+        btn115.setOnClickListener(this);
+        btn116.setOnClickListener(this);
+        btn117.setOnClickListener(this);
+        btn127.setOnClickListener(this);
+        btn137.setOnClickListener(this);
+        btn128.setOnClickListener(this);
+        btn148.setOnClickListener(this);
+        btn30.setOnClickListener(this);
+        btn40.setOnClickListener(this);
+        btn50.setOnClickListener(this);
+        btn60.setOnClickListener(this);
+        btn70.setOnClickListener(this);
+        btn80.setOnClickListener(this);
+        btn90.setOnClickListener(this);
+        btn100.setOnClickListener(this);
+        btn110.setOnClickListener(this);
+        btn120.setOnClickListener(this);
+        btn130.setOnClickListener(this);
+        btn140.setOnClickListener(this);
+        btn150.setOnClickListener(this);
+        btn160.setOnClickListener(this);
+        btn170.setOnClickListener(this);
+        btn31.setOnClickListener(this);
+        btn41.setOnClickListener(this);
+        btn51.setOnClickListener(this);
+        btn61.setOnClickListener(this);
+        btn71.setOnClickListener(this);
+        btn81.setOnClickListener(this);
+        btn91.setOnClickListener(this);
+        btn101.setOnClickListener(this);
+        btn111.setOnClickListener(this);
+        btn121.setOnClickListener(this);
+        btn131.setOnClickListener(this);
+        btn141.setOnClickListener(this);
+        btn151.setOnClickListener(this);
+        btn161.setOnClickListener(this);
+        btn171.setOnClickListener(this);
     }
 
 
@@ -390,6 +471,234 @@ public class MainActivity extends AppCompatActivity
                 i40.putExtra("ID", "Selenio");
                 i40.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Se-en.1.jpg");
                 startActivity(i40);
+                break;
+            case R.id.button114:
+                Intent i41 =  new Intent(this, DescOtrosMetales.class);
+                i41.putExtra("ID", "Aluminio");
+                i41.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/Al.htm1.jpg");
+                startActivity(i41);
+                break;
+            case R.id.button115:
+                Intent i42 =  new Intent(this, DescOtrosMetales.class);
+                i42.putExtra("ID", "Galio");
+                i42.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/Ga.htm30.jpg");
+                startActivity(i42);
+                break;
+            case R.id.button116:
+                Intent i43 =  new Intent(this, DescOtrosMetales.class);
+                i43.putExtra("ID", "Indio");
+                i43.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/In.htm9.jpg");
+                startActivity(i43);
+                break;
+            case R.id.button117:
+                Intent i44 =  new Intent(this, DescOtrosMetales.class);
+                i44.putExtra("ID", "Talio");
+                i44.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/Tl.htm3.jpg");
+                startActivity(i44);
+                break;
+            case R.id.button127:
+                Intent i45 =  new Intent(this, DescOtrosMetales.class);
+                i45.putExtra("ID", "Plomo");
+                i45.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/Pb.htm2.jpg");
+                startActivity(i45);
+                break;
+            case R.id.button137:
+                Intent i46 =  new Intent(this, DescOtrosMetales.class);
+                i46.putExtra("ID", "Bismuto");
+                i46.putExtra("Image", "https://www.lenntech.com/images/espanol/tabla-peiodica/Bi.htm10.jpg");
+                startActivity(i46);
+                break;
+            case R.id.button128:
+                Intent i47 =  new Intent(this, DescOtrosMetales.class);
+                i47.putExtra("ID", "Floverio");
+                i47.putExtra("Image", "https://f4.bcbits.com/img/a2646001305_10.jpg");
+                startActivity(i47);
+                break;
+            case R.id.button148:
+                Intent i48 =  new Intent(this, DescOtrosMetales.class);
+                i48.putExtra("ID", "Livermorio");
+                i48.putExtra("Image", "https://f4.bcbits.com/img/a2646001305_10.jpg");
+                startActivity(i48);
+                break;
+            case R.id.button30:
+                Intent i49 =  new Intent(this, DescLantanidos.class);
+                i49.putExtra("ID", "Lantanio");
+                i49.putExtra("Image", "https://elementos.org.es/img-elementos.org.es/lantano.jpg");
+                startActivity(i49);
+                break;
+            case R.id.button40:
+                Intent i50 =  new Intent(this, DescLantanidos.class);
+                i50.putExtra("ID", "Cerio");
+                i50.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ce-en.16.jpg");
+                startActivity(i50);
+                break;
+            case R.id.button50:
+                Intent i51 =  new Intent(this, DescLantanidos.class);
+                i51.putExtra("ID", "Praseodimio");
+                i51.putExtra("Image", "https://www.ecured.cu/Praseodimio#/media/File:Praseodimio.JPG");
+                startActivity(i51);
+                break;
+            case R.id.button60:
+                Intent i52 =  new Intent(this, DescLantanidos.class);
+                i52.putExtra("ID", "Neodimio");
+                i52.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Nd-en.8.jpg");
+                startActivity(i52);
+                break;
+            case R.id.button70:
+                Intent i53 =  new Intent(this, DescLantanidos.class);
+                i53.putExtra("ID", "Prometio");
+                i53.putExtra("Image", "http://100cia.site/media/k2/items/cache/31d3d648bcd5264f68bcb78a6a92b36d_M.jpg");
+                startActivity(i53);
+                break;
+            case R.id.button80:
+                Intent i54 =  new Intent(this, DescLantanidos.class);
+                i54.putExtra("ID", "Samario");
+                i54.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Sm-en.5.jpg");
+                startActivity(i54);
+                break;
+            case R.id.button90:
+                Intent i55 =  new Intent(this, DescLantanidos.class);
+                i55.putExtra("ID", "Europio");
+                i55.putExtra("Image", "https://isqch.files.wordpress.com/2013/12/s13.jpg");
+                startActivity(i55);
+                break;
+            case R.id.button100:
+                Intent i56 =  new Intent(this, DescLantanidos.class);
+                i56.putExtra("ID", "Gadolinio");
+                i56.putExtra("Image", "https://conceptodefinicion.de/wp-content/uploads/2015/12/gadolinio.jpg");
+                startActivity(i56);
+                break;
+            case R.id.button110:
+                Intent i57 =  new Intent(this, DescLantanidos.class);
+                i57.putExtra("ID", "Terbio");
+                i57.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tb-en.9.jpg");
+                startActivity(i57);
+                break;
+            case R.id.button120:
+                Intent i58 =  new Intent(this, DescLantanidos.class);
+                i58.putExtra("ID", "Disprosio");
+                i58.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Dy-en.31.jpg");
+                startActivity(i58);
+                break;
+            case R.id.button130:
+                Intent i59 =  new Intent(this, DescLantanidos.class);
+                i59.putExtra("ID", "Holmio");
+                i59.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ho-en.46.jpg");
+                startActivity(i59);
+                break;
+            case R.id.button140:
+                Intent i60 =  new Intent(this, DescLantanidos.class);
+                i60.putExtra("ID", "Erbio");
+                i60.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Er-en.32.jpg");
+                startActivity(i60);
+                break;
+            case R.id.button150:
+                Intent i61 =  new Intent(this, DescLantanidos.class);
+                i61.putExtra("ID", "Tulio");
+                i61.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tm-en.15.jpg");
+                startActivity(i61);
+                break;
+            case R.id.button160:
+                Intent i62 =  new Intent(this, DescLantanidos.class);
+                i62.putExtra("ID", "Iterbio");
+                i62.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Yb-en.23.jpg");
+                startActivity(i62);
+                break;
+            case R.id.button170:
+                Intent i63 =  new Intent(this, DescLantanidos.class);
+                i63.putExtra("ID", "Lutecio");
+                i63.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Lu-en.9.jpg");
+                startActivity(i63);
+                break;
+            case R.id.button31:
+                Intent i64 =  new Intent(this, DescActinidos.class);
+                i64.putExtra("ID", "Actinio");
+                i64.putExtra("Image", "https://elementos.org.es/img-elementos.org.es/lantano.jpg");
+                startActivity(i64);
+                break;
+            case R.id.button41:
+                Intent i65 =  new Intent(this, DescActinidos.class);
+                i65.putExtra("ID", "Torio");
+                i65.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ce-en.16.jpg");
+                startActivity(i65);
+                break;
+            case R.id.button51:
+                Intent i66 =  new Intent(this, DescActinidos.class);
+                i66.putExtra("ID", "Protactinio");
+                i66.putExtra("Image", "https://www.ecured.cu/Praseodimio#/media/File:Praseodimio.JPG");
+                startActivity(i66);
+                break;
+            case R.id.button61:
+                Intent i67 =  new Intent(this, DescActinidos.class);
+                i67.putExtra("ID", "Uranio");
+                i67.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Nd-en.8.jpg");
+                startActivity(i67);
+                break;
+            case R.id.button71:
+                Intent i68 =  new Intent(this, DescActinidos.class);
+                i68.putExtra("ID", "Neptunio");
+                i68.putExtra("Image", "http://100cia.site/media/k2/items/cache/31d3d648bcd5264f68bcb78a6a92b36d_M.jpg");
+                startActivity(i68);
+                break;
+            case R.id.button81:
+                Intent i69 =  new Intent(this, DescActinidos.class);
+                i69.putExtra("ID", "Plutonio");
+                i69.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Sm-en.5.jpg");
+                startActivity(i69);
+                break;
+            case R.id.button91:
+                Intent i70 =  new Intent(this, DescActinidos.class);
+                i70.putExtra("ID", "Americio");
+                i70.putExtra("Image", "https://isqch.files.wordpress.com/2013/12/s13.jpg");
+                startActivity(i70);
+                break;
+            case R.id.button101:
+                Intent i71 =  new Intent(this, DescActinidos.class);
+                i71.putExtra("ID", "Curio");
+                i71.putExtra("Image", "https://conceptodefinicion.de/wp-content/uploads/2015/12/gadolinio.jpg");
+                startActivity(i71);
+                break;
+            case R.id.button111:
+                Intent i72 =  new Intent(this, DescActinidos.class);
+                i72.putExtra("ID", "Berkelio");
+                i72.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tb-en.9.jpg");
+                startActivity(i72);
+                break;
+            case R.id.button121:
+                Intent i73 =  new Intent(this, DescActinidos.class);
+                i73.putExtra("ID", "Californio");
+                i73.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Dy-en.31.jpg");
+                startActivity(i73);
+                break;
+            case R.id.button131:
+                Intent i74 =  new Intent(this, DescActinidos.class);
+                i74.putExtra("ID", "Einstenio");
+                i74.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ho-en.46.jpg");
+                startActivity(i74);
+                break;
+            case R.id.button141:
+                Intent i75 =  new Intent(this, DescActinidos.class);
+                i75.putExtra("ID", "Fermio");
+                i75.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Er-en.32.jpg");
+                startActivity(i75);
+                break;
+            case R.id.button151:
+                Intent i76 =  new Intent(this, DescActinidos.class);
+                i76.putExtra("ID", "Mendelevio");
+                i76.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tm-en.15.jpg");
+                startActivity(i76);
+                break;
+            case R.id.button161:
+                Intent i77 =  new Intent(this, DescActinidos.class);
+                i77.putExtra("ID", "Nobelio");
+                i77.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Yb-en.23.jpg");
+                startActivity(i77);
+                break;
+            case R.id.button171:
+                Intent i78 =  new Intent(this, DescActinidos.class);
+                i78.putExtra("ID", "Lawrencio");
+                i78.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Lu-en.9.jpg");
+                startActivity(i78);
                 break;
         }
     }
