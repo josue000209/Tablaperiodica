@@ -44,7 +44,7 @@ public class Halogenos extends AppCompatActivity implements ElementoAdapter.Cont
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "https://gist.githubusercontent.com/josue000209/7cbd8d6e38828eb72b805a1637d9691c/raw/0c10e55977fd2a342c5f0d0f1e6094ed39fe2232/gistfile1.txt";
+    private static final String URL = "https://gist.githubusercontent.com/josue000209/7cbd8d6e38828eb72b805a1637d9691c/raw/0e272b73b84c03bbcc7ff12693fac4531ad09f1e/gistfile1.txt";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
