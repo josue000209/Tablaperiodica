@@ -80,6 +80,6 @@ public class DescHalogenos extends AppCompatActivity {
                 }
             }
         });
-        client.excecute("https://gist.githubusercontent.com/josue000209/41d0aa841c8e7c56beb3440a4b36879a/raw/5de116972fe0b1e0e518fa5a150e980c80d8539a/HalogenosInfo.json");
+        client.excecute("https://gist.githubusercontent.com/josue000209/41d0aa841c8e7c56beb3440a4b36879a/raw/c8e5c930780f15f21c843443b25f5b7d2d7f831e/HalogenosInfo.json");
     }
 }

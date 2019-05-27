@@ -44,7 +44,7 @@ public class Actinidos extends AppCompatActivity implements ElementoAdapter.Cont
     private SearchView searchView;
 
     // url to fetch contacts json
-    private static final String URL = "https://gist.githubusercontent.com/josue000209/b94dea58dfc07b03bf453e74b89b8156/raw/66e4feb6866a89627ba5822939923034dda75616/actinidos.json";
+    private static final String URL = "https://gist.githubusercontent.com/rogersant0sxiu/fd4014c2be95945f49044c7b573a2e1c/raw/a635ed29e4d6113bebb59c270ac9e46caedb56cb/gistfile1.txt";
 
 
     @Override
