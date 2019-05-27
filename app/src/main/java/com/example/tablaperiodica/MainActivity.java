@@ -751,13 +751,13 @@ public class MainActivity extends AppCompatActivity
                 i36.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/N-en.h1.jpg");
                 startActivity(i36);
                 break;
-            case R.id.button134:
+            case R.id.button143:
                 Intent i37 = new Intent(this, DescNoMetales.class);
                 i37.putExtra("ID", "Oxigeno");
                 i37.putExtra("Image", "https://es.wikipedia.org/wiki/Ox%C3%ADgeno#/media/File:Oxygen_discharge_tube.jpg");
                 startActivity(i37);
                 break;
-            case R.id.button143:
+            case R.id.button134:
                 Intent i38 = new Intent(this, DescNoMetales.class);
                 i38.putExtra("ID", "Fosforo");
                 i38.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/P-en.h10.jpg");
