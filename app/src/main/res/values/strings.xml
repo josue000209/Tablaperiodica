@@ -26,5 +26,9 @@
     <string name="communicate">Communicate</string>
     <string name="propiedades_desconocidas">Propiedades Desconocidas</string>
 
+    <string name="toolbar_title">Alcalinoterreos</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Elemento...</string>
+    <string name="nombre">Nombre</string>
 
 </resources>
