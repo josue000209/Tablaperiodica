@@ -613,91 +613,91 @@ public class MainActivity extends AppCompatActivity
             case R.id.button31:
                 Intent i64 =  new Intent(this, DescActinidos.class);
                 i64.putExtra("ID", "Actinio");
-                i64.putExtra("Image", "https://elementos.org.es/img-elementos.org.es/lantano.jpg");
+                i64.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ac-en.1.jpg");
                 startActivity(i64);
                 break;
             case R.id.button41:
                 Intent i65 =  new Intent(this, DescActinidos.class);
                 i65.putExtra("ID", "Torio");
-                i65.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ce-en.16.jpg");
+                i65.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Th-en.12.jpg");
                 startActivity(i65);
                 break;
             case R.id.button51:
                 Intent i66 =  new Intent(this, DescActinidos.class);
                 i66.putExtra("ID", "Protactinio");
-                i66.putExtra("Image", "https://www.ecured.cu/Praseodimio#/media/File:Praseodimio.JPG");
+                i66.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Pa-en.7.jpg");
                 startActivity(i66);
                 break;
             case R.id.button61:
                 Intent i67 =  new Intent(this, DescActinidos.class);
                 i67.putExtra("ID", "Uranio");
-                i67.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Nd-en.8.jpg");
+                i67.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/U-en.h16.gif");
                 startActivity(i67);
                 break;
             case R.id.button71:
                 Intent i68 =  new Intent(this, DescActinidos.class);
                 i68.putExtra("ID", "Neptunio");
-                i68.putExtra("Image", "http://100cia.site/media/k2/items/cache/31d3d648bcd5264f68bcb78a6a92b36d_M.jpg");
+                i68.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Np-en.4.jpg");
                 startActivity(i68);
                 break;
             case R.id.button81:
                 Intent i69 =  new Intent(this, DescActinidos.class);
                 i69.putExtra("ID", "Plutonio");
-                i69.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Sm-en.5.jpg");
+                i69.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Pu-en.2.jpg");
                 startActivity(i69);
                 break;
             case R.id.button91:
                 Intent i70 =  new Intent(this, DescActinidos.class);
                 i70.putExtra("ID", "Americio");
-                i70.putExtra("Image", "https://isqch.files.wordpress.com/2013/12/s13.jpg");
+                i70.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Am-en.1.jpg");
                 startActivity(i70);
                 break;
             case R.id.button101:
                 Intent i71 =  new Intent(this, DescActinidos.class);
                 i71.putExtra("ID", "Curio");
-                i71.putExtra("Image", "https://conceptodefinicion.de/wp-content/uploads/2015/12/gadolinio.jpg");
+                i71.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Cm-en.24.gif");
                 startActivity(i71);
                 break;
             case R.id.button111:
                 Intent i72 =  new Intent(this, DescActinidos.class);
                 i72.putExtra("ID", "Berkelio");
-                i72.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tb-en.9.jpg");
+                i72.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Bk-en.12.jpg");
                 startActivity(i72);
                 break;
             case R.id.button121:
                 Intent i73 =  new Intent(this, DescActinidos.class);
                 i73.putExtra("ID", "Californio");
-                i73.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Dy-en.31.jpg");
+                i73.putExtra("Image", "https://es.wikipedia.org/wiki/Californio#/media/File:Californium.jpg");
                 startActivity(i73);
                 break;
             case R.id.button131:
                 Intent i74 =  new Intent(this, DescActinidos.class);
                 i74.putExtra("ID", "Einstenio");
-                i74.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Ho-en.46.jpg");
+                i74.putExtra("Image", "https://es.wikipedia.org/wiki/Einstenio#/media/File:Einsteinium.jpg");
                 startActivity(i74);
                 break;
             case R.id.button141:
                 Intent i75 =  new Intent(this, DescActinidos.class);
                 i75.putExtra("ID", "Fermio");
-                i75.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Er-en.32.jpg");
+                i75.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Fm-en.37.jpg");
                 startActivity(i75);
                 break;
             case R.id.button151:
                 Intent i76 =  new Intent(this, DescActinidos.class);
                 i76.putExtra("ID", "Mendelevio");
-                i76.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Tm-en.15.jpg");
+                i76.putExtra("Image", "https://conceptodefinicion.de/wp-content/uploads/2015/12/mendelevio.jpg");
                 startActivity(i76);
                 break;
             case R.id.button161:
                 Intent i77 =  new Intent(this, DescActinidos.class);
                 i77.putExtra("ID", "Nobelio");
-                i77.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Yb-en.23.jpg");
+                i77.putExtra("Image", "https://f4.bcbits.com/img/a2646001305_10.jpg");
                 startActivity(i77);
                 break;
             case R.id.button171:
                 Intent i78 =  new Intent(this, DescActinidos.class);
                 i78.putExtra("ID", "Lawrencio");
-                i78.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Lu-en.9.jpg");
+                i78.putExtra("Image", "https://www.lenntech.com/images/Periodic-chart-elements/Lr-en.11.jpg");
                 startActivity(i78);
                 break;
         }
